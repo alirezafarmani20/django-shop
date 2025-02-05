@@ -4,7 +4,7 @@ from .models import*
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ['title','author','created','status']
+    list_display = ['title','author','created','status','slug']
     ordering = ['author','status']
     list_filter = ['author','created','status']
     search_fields = ['author','title','slug','created','status']
