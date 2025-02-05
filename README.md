@@ -16,7 +16,7 @@ This project is a simple shop application that consists of two main parts:
 ## Requirements
 - Python 3.8+
 - Django 3.2+
-- PostgreSQL (or any other preferred database)
+- Mysql
 
 ## Installation
 1. Clone the repository:
