@@ -37,3 +37,4 @@ coverage.xml
 .pytest_cache/
 .tox/
 p-ven/
+db.sqlite3
